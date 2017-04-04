@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+    <meta charset="UTF-8">
+    <title>kerwin's CV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="shortcut icon" href="./favicon.ico"/>
+
+</head>
+<body>
+
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container"><!-- 居中版心两端 -->
+        <div class="navbar-header"> <!-- 添加导航logo -->
+            <button type="button" class="navbar-toggle collapsed"  data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://github.com/kerwinywj" target="_blank"><img src="img/github.jpg" width="50px" height="30px"  alt="GitHub"/></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="./index.html"><span class="glyphicon glyphicon-home greenFont">&nbsp;首页</span> </a></li>
+                <li><a href="#project"><span class="glyphicon glyphicon-fire greenFont">&nbsp;项目</span> </a></li>
+                <li><a href="http://blog.csdn.net/winge_fish" target="_blank"><span class="glyphicon glyphicon-question-sign greenFont">&nbsp;关于</span></a></li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<section class="audio audioMove" id="audio">
+    <audio src="music/InYourEyes.mp3" type="audio/mpeg" loop preload="auto" autoplay></audio>
+</section>
+
+<div id="myCarousel" class="carousel slide">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="./img/slide/slide11.jpg">
+        </div>
+        <div class="item">
+            <img src="./img/slide/slide12.jpg">
+        </div>
+        <div class="item">
+            <img src="./img/slide/slide13.jpg">
+        </div>
+        <div class="item">
+            <img src="./img/slide/slide14.jpg">
+        </div>
+        <!-- 轮播（Carousel）导航 -->
+        <a class="carousel-control left" href="#myCarousel"  data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+</div>
+
+<div class="tab1">
+    <div class="container">
+        <h2 class="tab-h2">我的个人信息</h2>
+         <div class="myphoto"><img id="avatar" src="img/avatar.jpg" /></div>
+        <p class="tab-p">我是一个充满活力、对前端由衷热爱、善于发现问题的前端工程师。
+            我目前正在寻找前端工程师岗位，希望借此机会为贵司献上我的一点绵薄之力，快招我到碗里来吧！</p>
+        <div class="row">
+
+            <div class="col-md-6 col"> <!-- col类增加 间隙-->
+                <div class="media">
+                    <a class="pull-left" href="javascript:;">
+                        <img class="media-object" src="./img/intro/name.png">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading greenFont">姓名性别</h4>
+                         <p class="huise">姓名：余伟景</p>
+                         <p class="huise">性别：男</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col"> <!-- col类增加 间隙-->
+                <div class="media">
+                    <a class="pull-left" href="javascript:;">
+                        <img class="media-object" src="./img/intro/link.png">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading greenFont">联系方式</h4>
+                        <p class="huise">电话：13435728393</p>
+                        <p class="huise">邮箱：yy649487394@163.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col"> <!-- col类增加 间隙-->
+                <div class="media">
+                    <a class="pull-left" href="javascript:;">
+                        <img class="media-object" src="./img/intro/project.png">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading greenFont">个人主页</h4>
+                        <p class="huise">Github:<a class="light_green" href="https://github.com/kerwinywj"> https://github.com/kerwinywj</a></p>
+                        <p class="huise">Blog:<a class="light_green" href="http://blog.csdn.net/winge_fish"> http://blog.csdn.net/winge_fish</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col"> <!-- col类增加 间隙-->
+                <div class="media">
+                    <a class="pull-left" href="javascript:;">
+                        <img class="media-object" src="./img/intro/school.png">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading greenFont">毕业学校</h4>
+                        <p class="huise">学校：广东海洋大学（全日制本科）</p>
+                        <p class="huise">专业: 计算机与科学技术</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="tab2">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 chartTab2">
+                <h2 class="align-center">专业技能&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+                <ul class="bar-chart">
+                    <li id="aqua" class="aqua p-85">
+                        <div class="percent">85<span>%</span></div>
+                        <div class="skill">HTML5/CSS3</div>
+                    </li>
+                    <li id="pink" class="pink p-80">
+                        <div class="percent">80<span>%</span></div>
+                        <div class="skill">JavaScript</div>
+                    </li>
+                    <li id="yellow" class="yellow p-85">
+                        <div class="percent">85<span>%</span></div>
+                        <div class="skill">Jquery</div>
+                    </li>
+                    <li id="brown" class="brown p-80">
+                        <div class="percent">80<span>%</span></div>
+                        <div class="skill">Bootstrap</div>
+                    </li>
+                    <li id="red" class="red p-75">
+                        <div class="percent">75<span>%</span></div>
+                        <div class="skill">Sass</div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="tab3" class="exprience">
+    <div class="container">
+        <div class="heading">
+            <h2 class="align-center">工作经历</h2>
+        </div>
+
+        <div class="row workDetails">
+            <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                <div class="workYear">
+                    <span class="prevY">12,2016</span>
+                    <span class="afterY">07,2015</span>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+                <div class="exCon">
+                    <h4>中山市精威包装机械有限公司</h4>
+                    <h5>网页前端开发</h5>
+                    <p>这段时间是自己网页前端开发技能得到不少提高的阶段。主要负责公司的整个官网页面开发，seo优化，官网(<a href="http://www.multiheadweigh.com/homepage/">精威官网</a>)是使用html、css、js完成页面的制作，了解了网站基本开发流程，熟悉div/css布局，行为与表现分离,了解并解决浏览器兼容性问题。除此之外,工作之外时间，不断加强前端技术的学习，如学习了JQuery，bootstrap等前端流行成熟框架,加深对原生JS的理解，如，闭包，作用域，原型，原型链等有清晰理解。
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row workDetails">
+            <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                <div class="workYear">
+                    <span class="prevY">04,2015</span>
+                    <span class="afterY">06,2014</span>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+                <div class="exCon">
+                    <h4>中山市掌门人商旅服务股份有限公司</h4>
+                    <h5>seo推广专员</h5>
+                    <p>
+                        日常工作主要围绕官网(<a href="http://www.88gogo.com/">掌门人</a>)进行外链和内链的优化。在此期间，深入了解到SEO优化一些常用技巧。
+                        如
+                        1. 通过google adwards关键词，Google Analytics工具,百度统计，百度指数等工具挖掘分析关键词.
+                        2. 站内优化，meta标签的优化，title属性，keywords属性 discription属性 h1~h6标签. 页面中的关键词的密度,锚文本
+                        3. 外部链接建设：友情链接，导航网站中网站目录提交，论坛，百度百科等。
+                        4.寻找资源，进行资源互换，互相推广，活动策划。
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row workDetails">
+            <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                <div class="workYear">
+                    <span class="prevY">06,2014</span>
+                    <span class="afterY">09,2010</span>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+                <div class="exCon">
+                    <h4>广东海洋大学</h4>
+                    <h5>计算机科学与技术本科生</h5>
+                    <p>
+                        在四年的大学生活中我主要学习了比如操作系统，计算机网络，C/C++编程语言，java程序设计，数据结构，编译原理和软件工程导论课程等等。 大学期间主要专攻C++游戏开发和JavaWeb开发，打下扎实计算机理论基础知识，对面向对象理解较深。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="tab4" class="project">
+    <div class="container">
+        <h2 class="align-center"><a name="project">项目经验</a></h2>
+
+        <div class="row projectItem">
+            <div class=" project-items">
+                <a href="https://kerwinywj.github.io/jd/" class="project-item1" target="_blank"><img class="item1-pic" src="./img/project/jingdong.png"  />
+                    <div class="item1-wrapper">
+                        <h5 class="item1-title">仿京东商城首页</h5>
+                        <p class="item1-p">
+                            仿京东首页项目，参考京东商城样式制作，高精度还原，主要运用技术：html5，css3，jQuery等，
+                            通过该项目，熟练掌握HTML常用标签，模块化的CSS使用，以及常用div+css布局方式。
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="project-items">
+                <a href="#" class="project-item2"><img class="item2-pic" src="./img/project/cv.png"    />
+                    <div class="item2-wrapper">
+                        <h5 class="item2-title">我的个人简历</h5>
+                        <p class="item2-p">
+                            个人简历项目，设计简洁，实现响应式布局，主要运用技术 html5，css3,bootstrap进行设计. 通过该项目
+                            ，熟练掌握bootstrap常用组件和栅格系统布局等。
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="project-items">
+                <a href="https://kerwinywj.github.io/component/TanChuang/" class="project-item3" target="_blank"><img class="item3-pic" src="./img/project/tanchuang.png"  />
+                    <div class="item3-wrapper">
+                        <h5 class="item3-title">面向对象弹窗组件</h5>
+                        <p class="item3-p">
+                            面向对象弹窗组件，主要运用技术：Jquery，Require.js，观察者模式进行开发，
+                            该组件具有高度重用性，可扩展，以及模块化优点。
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="project-items">
+                <a href="#" class="project-item4"><img class="item4-pic" src="./img/project/musicapp.png"  />
+                    <div class="item4-wrapper">
+                        <h5 class="item4-title">简易音乐播放器</h5>
+                        <p class="item4-p">
+                            简易音乐播放器，界面优雅，依赖的百度FM海量音乐资源，支持切换频道，上一曲，下一曲，暂停\播放，随机播放，
+                            主要运用技术：html，css3，jquery，ajax等。通过该项目，深刻理解掌握ajax工作原理等技术。
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="tab5" class="contact">
+    <div class="container">
+        <h2 class="align-center">自我评价</h2>
+        <div class="row">
+            <div class="col-xs-12 textcenter">
+                <p>1.熟练掌握JavaScript，Jquery，div+css网页制作。</p>
+                <p>2.能够理解JS的面向对象方式，编写简单组件。</p>
+                <p>3.熟悉bootstrap，sass常用框架。</p>
+                <p>4.个人项目github地址：https://github.com/kerwinywj</p>
+                </p>
+            </div>
+            <div class="col-xs-12 textcenter">
+                <h4> 职业技能与特长：</h4>
+                <p>1.对表现层技术很有兴趣，熟悉Web语义化，掌握盒模型、常用div+css布局以及浏览器兼容性。</p>
+                <p>2.熟练使用xhtml css2.0构建web标准页面，并兼容多种主流浏览器，理解AJAX运作机制。</p>
+                <p>3.熟练使用html/html5, css/css3、JavaScript，熟练使用Jquery开发。</p>
+                <p>4.理解并掌握JavaScript语言核心技术DOM、BOM、Ajax、JSON等。</p>
+                <p>5.熟练使用Fireworks、Dreamweaver、Webstorm、git等工具,如代码开发、图像简单处理、切图等。</p>
+                <p>5.了解模块化，前端性能优化，java后台语言。</p>
+                <p>6.个性开朗乐观，有较强的社交能力和自学能力，有独立分析问题和解决问题的能力,积极上进，能快速融入团队，喜欢团队工作！</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="tab6" class="contact">
+    <div class="container">
+        <h2 class="align-center">欢迎联系</h2>
+        <div class="row">
+            <div class="col-xs-12 acenter">
+                <h3>Wechat：</h3><h4> katewithlove</h4>
+                <div><img src="img/wechat.jpg" class="wechat" width="130px" height="130px"/></div>
+            </div>
+            <div class="col-xs-12 acenter">
+                <h3>Email：</h3><h4> yy649487394@163.com 或 kerwinywj@gmail.com</h4>
+            </div>
+            <div class="col-xs-12 acenter">
+                <h3>Tel：</h3><h4> 13435728393</h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script>
+        $(function(){
+            $("#myCarousel").carousel({
+                //自动播放2秒
+                interval: 2000
+            });
+
+            $(window).scroll(function(){
+                console.log($(this).scrollTop());
+                if($(this).scrollTop()>580){
+                    /* 滚动高度到达680时,给特定元素addClass */
+                    $('#aqua').animate({height: '85%',opacity: '1',visibility:'visible' },1000);
+                    $('#pink').animate({height: '80%',opacity: '1',visibility:'visible' }, 2500);
+                    $('#yellow').animate({height: '85%',opacity: '1',visibility:'visible' },4000);
+                    $('#brown').animate({height: '80%',opacity: '1',visibility:'visible' }, 5500);
+                    $('#red').animate({height: '75%',opacity: '1',visibility:'visible' }, 7000);
+                }
+            });
+
+            $("#audio").click(function(){
+
+                var musicA = document.getElementsByTagName('audio')[0];
+                if(musicA.paused){
+                    musicA.play();
+                    $("#audio").addClass('audioMove');
+
+                }else{
+                    musicA.pause();
+                    $("#audio").removeClass('audioMove');
+                }
+            });
+        });
+    </script>
+
+
+
+
+</body>
+</html>
