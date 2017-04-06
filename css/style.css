@@ -468,6 +468,10 @@ a:hover {
 #tab6 h4 {
     color: #22C3AA;
 }
+#tab6 .highlight {
+    color: #9f3;
+    font-weight: bold;
+}
 #tab6 .acenter {
     text-align: center;
     margin: 10px 0;
